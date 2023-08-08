@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     flex-wrap: nowrap;
+}
+
+ body {
+   background-image: url(https://th.bing.com/th/id/OIP.kFl7NS4EWbzpiF0p2upUEAHaNK?pid=ImgDet&rs=1);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+ }
+
+ .monarch-title 
+ {
+   display: flex;
+   justify-content: center;
+   font-weight: bolder;
+   margin-top: -50px;
+   margin-left: 5px;
+   color: white;
+ }
+
+
+ .phone {
+    background-image: url(https://i.pinimg.com/originals/fe/23/6b/fe236badf1312539ad9c204250d8f62e.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    bottom: 290px;
+    right: 50px;
+    left: 50px;
+    top: 80px;
+    border-radius: 50px;
+    border-width: 7px;
+    box-shadow: 3px 3px 5px;
+    border-style: outset;
+    border-color: black;
+    max-width: 230px;
+    min-width: 230px;
+    min-height: 500px;
+    margin-left: 30px;
+    
+ } 
+
+ .header {
+    border: solid;
+    position: absolute;
+    right: 100px;
+    left: 80px;
+    width: 50px;
+    height: 12px;
+    background-color: black;
+    border-style: outset;
+    border-color: black;
+ }
+
+ .google {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+ }
+
+  input {
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  img {
+   width: 45px;
+   border-radius: 15px;
+  }
+
+  .apps {
+   position: absolute;
+   top: 65px;
+   left: 10px;
+  }
+  
+  p {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   font-size: small;
+  }
+
+  a {
+   color: black;
+   text-decoration: none;
+  }
+
+  .apps-2 {
+   position: absolute;
+   top: 65px;
+   left: 80px;
+  }
+
+  .apps-3 {
+   position: absolute;
+   top: 65px;
+   left: 150px;
+  }
+
+  .apps-4 {
+   position: absolute;
+   top: 150px;
+   left: 10px;
+  }
+
+  .apps-5 {
+   position: absolute;
+   top: 230px;
+   left: 10px;
+  }
+
+  .apps-6 {
+   position: absolute;
+   top: 310px;
+   left: 10px;
+  }
+
+  .dots {
+   position: absolute;
+   top: 350px;
+   left: 80px;
+   font-size: 30px;
+  }
+
+  .youtube {
+   position: absolute;
+   top: 410px;
+   left: 15px;
+   font-size: small;
+  }
+
+  .facebook {
+   position: absolute;
+   top: 410px;
+   left: 80px;
+   font-size: small;
+  }
+
+  .chrome {
+   position: absolute;
+   top: 410px;
+   left: 150px;
+   font-size: small;
+  }
